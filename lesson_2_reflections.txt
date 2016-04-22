@@ -1,0 +1,8 @@
+in a file type: 
+git init. to initialize a git 
+run: 
+git status. to get the diff with the previous commit
+
+run: 
+git add file. to add file for track
+
