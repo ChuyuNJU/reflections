@@ -5,4 +5,46 @@ git status. to get the diff with the previous commit
 
 run: 
 git add file. to add file for track
+this is add to staged area, so that we can commit these changes!!!
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area can contains part of the working directory
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+git add one file each time for each commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+add a new features or for some debug branches. we have a new copy of the master
+
+How do the diagrams help you visualize the branch structure?
+
+we can understand how the branches
+
+############
+
+git diff.  between staging area and dictory
+
+git diff --staged. between staging are and head commit
+
+git reset --hard.  remove all the changes not shown in staging area
+
+git checkout master
+
+git branch: detect all the branches
+
+git branch xxx: add a new branch xxx
+
+git branch -d xxx: delete branch xxx, do it after merge
+
+git checkout xxx: go to branch xxx
+
+git checkout -b xxx: add a new branch and move to it, b is short for branch
+
+git log --graph --oneline master coins: git the difference between branches
+
+git merge branch2 branch3: merge the two branches into branch2? because we are in branch2
+
+git show commit_id: compare with its parent of commit_id
